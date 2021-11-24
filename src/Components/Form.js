@@ -10,8 +10,8 @@ function Form() {
             <div className="select">
                 <select name="todos" className="filter-todo">
                 <option value="all">All</option>
-                <option value="completed">Complete</option>
-                <option value="uncompleted">Incomplete</option>
+                <option value="complete">Complete</option>
+                <option value="incomplete">Incomplete</option>
                 </select>
             </div>
         </form>
