@@ -16,8 +16,8 @@ You will also see any lint errors in the console.
 
 ## To-Dos for the Application
 
-    [x] Add localStorage
-    [ ] Add option for cloud storage
-    [ ] Add authentication
-    [ ] Darkmode toggle
-    [ ] Background color changer
+[x] Add localStorage
+[ ] Add option for cloud storage
+[] Add authentication
+[ ] Darkmode toggle
+[ ] Background color changer
