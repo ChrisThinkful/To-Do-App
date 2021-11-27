@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+import ToDo from './ToDo'
 
-function ToDoList() {
+function ToDoList({ toDos }) {
     return (
         <div className="todo-container">
             <ul className="todo-list">
-                
+                {toDos.map(toDo => (
+                     <ToDo 
+                     text={toDo.text}
+                     completed={toDo.completed}
+                     />
+                ))}
             </ul>
         </div>
     )
