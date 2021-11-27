@@ -2,7 +2,7 @@
 
 This application was built using HTML, CSS, JavaScript, React. It utilizes localstorage to save your ToDos. 
 
-[Live Demo](placeholer)
+[Live Demo](https://to-do-app-pearl.vercel.app/)
 
 ## Run the app
 
