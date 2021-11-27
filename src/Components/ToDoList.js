@@ -1,14 +1,19 @@
 import React from 'react';
 import ToDo from './ToDo'
 
-function ToDoList({ toDos }) {
+function ToDoList({ toDos, setToDos, filteredToDos }) {
+
+    // render
     return (
         <div className="todo-container">
             <ul className="todo-list">
-                {toDos.map(toDo => (
+                {filteredToDos.map(toDo => (
                      <ToDo 
+                     key={toDo.id}
                      text={toDo.text}
-                     completed={toDo.completed}
+                     toDo={toDo}
+                     toDos={toDos}
+                     setToDos={setToDos}
                      />
                 ))}
             </ul>
